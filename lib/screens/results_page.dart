@@ -31,6 +31,7 @@ class ResultsPage extends StatelessWidget {
           Expanded(
             flex: 7,
             child: ReusableCard(
+              onPress: () {},
               color: kActiveCardColor,
               cardChild: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
